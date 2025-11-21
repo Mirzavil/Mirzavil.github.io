@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Mirza | AI & Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Muhammed Mirza Villantakath - AI & Full-Stack Developer specializing in Machine Learning, NLP, and Web Development.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Outfit:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Boot Sequence Overlay -->
+    <div id="boot-screen">
+        <div class="terminal-container">
+            <div id="terminal-output"></div>
+            <span class="cursor">_</span>
+        </div>
+    </div>
+
+    <!-- Matrix Background -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="hidden">
+        <div class="nav-logo">&lt;MirzaVillan/&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">01. Home</a></li>
+            <li><a href="#about">02. About</a></li>
+            <li><a href="#experience">03. Experience</a></li>
+            <li><a href="#projects">04. Projects</a></li>
+            <li><a href="#education">05. Education</a></li>
+            <li><a href="#skills">06. Skills</a></li>
+            <li><a href="#contact">07. Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Scroll Container -->
+    <main class="scroll-container hidden" id="main-content">
+
+        <!-- Hero Section -->
+        <section id="home" class="snap-section">
+            <div class="content-wrapper">
+                <p class="accent-text">Hello World! I am</p>
+                <h1 class="glitch" data-text="Muhammed Mirza.">Muhammed Mirza Villantakath</h1>
+                <h2 class="subtitle">Training machines, one confused dataset at a time.</h2>
+                <p class="bio">
+                    AI & Full-Stack Developer specialized in <span class="highlight">Machine Learning</span>, <span
+                        class="highlight">NLP</span>, and <span class="highlight">Agentic RAG</span> pipelines -
+                    building scalable, future-ready applications from data to deployment.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn primary-btn">View Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="snap-section">
+            <div class="content-wrapper">
+                <h2 class="section-title">02. About Me</h2>
+                <div class="about-content">
+                    <p> I am a Computer Science graduate from the <strong>University of Birmingham Dubai</strong> (First
+                        Class Honours, Golden Visa holder), passionate about <strong>AI</strong>, <strong>machine
+                            learning algorithms</strong> and intelligent systems. My work spans building AI-powered
+                        applications, semantic search systems, computer vision solutions, agentic RAG pipelines, and
+                        production-ready ML models to solve real-world challenges. </p>
+                    <p> During my journey, I worked as an <strong>AI Product Developer Intern at Dorz</strong>, where I
+                        planned and prototyped AI-powered features to support better decision-making for business
+                        owners and proposed UX improvements to improve product experience. Beyond industry work, I
+                        contributed to the <strong>University of Birmingham Dubai Space Society</strong>, first as the
+                        Computer Specialist for the Rocketry Team-selecting and tuning flight computers that helped
+                        secure 2nd place at the UKSEDS National Rocketry Competition and later as Vice President, where
+                        I led initiatives, mentored members and organized events that expanded the society's reach and
+                        impact. </p>
+                    <p> My academic foundation at the University of Birmingham, a global top-100 university, gave me
+                        both technical depth and recognition. As part of my degree, I built <strong>VibeFind</strong>,
+                        an AI-based destination recommendation app that combined semantic search, LLMs and backend APIs
+                        to interpret user queries and suggest venues across Dubai. I thrive on creating data-driven
+                        products that are both impactful and scalable. </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="snap-section-exp">
+            <div class="content-wrapper">
+                <h2 class="section-title">03. Experience</h2>
+                <div class="timeline">
+                    <!-- Experience Items will be populated here -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jul 2025 - Sep 2025</div>
+                        <div class="timeline-content">
+                            <h3>AI Product Developer Intern</h3>
+                            <h4>Dorz | Dubai, UAE</h4>
+                            <p>Planned, designed and developed new AI powered features to support smart decision-making
+                                for business owners.</p>
+                            <p>Developed 5+ dashboards that transformed raw business data into actionable insights for
+                                owners.</p>
+                            <p>Reviewed existing system architecture for efficient and smooth feature integration.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Oct 2024 - Apr 2025</div>
+                        <div class="timeline-content">
+                            <h3>VibeFind - AI powered destination Recommendation App | <a
+                                    style="color: var(--text-color); font-size: 1.3rem;"
+                                    href="https://github.com/Mirzavil/VibeFind" target="_blank">GitHub</a>
+                            </h3>
+                            <h4>Final Year Project - University of Birmingham Dubai</h4>
+                            <p>Developed a full-stack destination recommendation system using an Agentic RAG
+                                architecture to interpret user queries and provide live weather-based venue suggestions
+                                in Dubai, tailored to user interests.</p>
+                            <p>Tools used: Django, GroqCloud (LLaMA-3), HuggingFace embeddings and Qdrant vector
+                                database.</p>
+                            <p>Independently designed and developed backend services, semantic search pipelines, LLM
+                                integration, prompt engineering and frontend UI, achieved 90%+ satisfaction in
+                                real-world pilot tests.</p>
+                            <p>Resolved critical challenges in data sourcing, model benchmarking and deployment through
+                                extensive experimentation and applied research.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Oct 2023 - Jul 2025</div>
+                        <div class="timeline-content">
+                            <h3>Computer Specialist - Vice President</h3>
+                            <h4>Space Society - UoB Dubai</h4>
+                            <p>Started as Computer Specialist for the Rocketry Team (2023-2024), where I acquired and
+                                tuned flight computers for parachute deployment and telemetry accuracy, contributing to
+                                2nd place out of 20+ teams at the UKSEDS National Rocketry Competition.</p>
+                            <p>Was promoted to Vice President the following year, where I led initiatives and organized
+                                events that boosted membership and interest in space technology.</p>
+                            <p>Mentored members and oversaw collaborative technical projects, including rockets, rovers
+                                and satellites for national competitions in the UK.</p>
+                            <p>Managed leadership duties along with final-year studies through effective time management
+                                and delegation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="snap-section">
+            <div class="content-wrapper">
+                <h2 class="section-title">04. Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Cards -->
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="folder-icon">🤖</span>
+                            <div class="card-links">
+                                <!-- <a href="#" target="_blank">GitHub</a> -->
+                            </div>
+                        </div>
+                        <h3>Client Engagement Automation</h3>
+                        <p>Built Make.com automation to process client emails, log leads, reply bilingually, update
+                            tools and deliver reports.</p>
+                        <ul class="tech-stack">
+                            <li>Make.com</li>
+                            <li>AI/NLP</li>
+                            <li>Google Sheets</li>
+                        </ul>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="folder-icon">🤖</span>
+                            <div class="card-links">
+                                <a href="https://github.com/Mirzavil/Bank-Churn-Analysis-Trained_Model"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                        <h3>Churn Prediction Model Training</h3>
+                        <p>Built churn prediction model using EDA, feature engineering, ML models, SMOTE, achieved 85%
+                            accuracy, with real-world simulation.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>Scikit-Learn</li>
+                            <li>XGBoost</li>
+                        </ul>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="folder-icon">🤖</span>
+                            <div class="card-links">
+                                <a href="https://github.com/Mirzavil/Taxi-Stand-Allotment" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                        <h3>Demand Based Cab Placement Model</h3>
+                        <p>Optimized Dubai taxi station placements using KMeans and GeoPy on 100K+ trips; improved
+                            peak-hour availability by 30%, awarded Experience Champion.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>GeoPy</li>
+                            <li>KMeans</li>
+                        </ul>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="folder-icon">🤖</span>
+                            <div class="card-links">
+                                <!-- <a href="https://github.com/Mirzavil/Taxi-Stand-Allotment" target="_blank">GitHub</a> -->
+                            </div>
+                        </div>
+                        <h3>StepSense - Smart Haptic Footwear System</h3>
+                        <p>Designed smart haptic footwear and app prototype for screen-free navigation, posture
+                            correction, and user testing.</p>
+                        <ul class="tech-stack">
+                            <li>Human-Computer Interaction</li>
+                            <li>Prototyping</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="folder-icon">🤖</span>
+                            <div class="card-links">
+                                <!-- <a href="https://github.com/Mirzavil/Taxi-Stand-Allotment" target="_blank">GitHub</a> -->
+                            </div>
+                        </div>
+                        <h3>MySafety - Emergency Alert Web App</h3>
+                        <p>Built web based safety app with SOS alerts, geolocation, maps and contacts management; Team
+                            Project Module UOBD.</p>
+                        <ul class="tech-stack">
+                            <li>JHipster</li>
+                            <li>Angular</li>
+                            <li>Team Collaboration</li>
+                        </ul>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="folder-icon">🤖</span>
+                            <div class="card-links">
+                                <!-- <a href="https://github.com/Mirzavil/Taxi-Stand-Allotment" target="_blank">GitHub</a> -->
+                            </div>
+                        </div>
+                        <h3>Image Classification</h3>
+                        <p>Built image classification system with PyTorch; achieved 83% accuracy.</p>
+                        <ul class="tech-stack">
+                            <li>PyTorch</li>
+                            <li>Computer Vision</li>
+                            <li>Image Recognition</li>
+                        </ul>
+                    </div>
+                </div>
+                <p style="text-align: center;">Scroll left to view more projects</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="snap-section">
+            <div class="content-wrapper">
+                <h2 class="section-title">05. Education</h2>
+                <div class="education-card">
+                    <div class="edu-header">
+                        <h3>University of Birmingham</h3>
+                        <span class="edu-date">2022 - 2025</span>
+                    </div>
+                    <h4>BSc Computer Science (First Class Honours, 4.0 GPA)</h4>
+                    <p class="edu-location">Dubai, UAE</p>
+                    <ul class="edu-details">
+                        <li><strong>Specialization:</strong> Machine Learning, Data Science, Full-Stack Development</li>
+                        <li><strong>Thesis:</strong> VibeFind - AI-powered destination recommendation app using agentic
+                            RAG (LLMs + semantic search + backend
+                            APIs) to interpret user queries and recommend venues across Dubai.</li>
+                        <li><strong>Awards:</strong> Birmingham Award (Distinction) - 2025, Experience Champion (UAE
+                            GenAI Hackathon) - 2024, Best Innovation Award (UKSEDS Rover Project) - 2024.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="snap-section">
+            <div class="content-wrapper">
+                <h2 class="section-title">06. Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span>Python</span><span>Java</span><span>JavaScript</span><span>SQL</span><span>C</span><span>Haskell</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & Data</h3>
+                        <div class="skill-tags">
+                            <span>Machine
+                                Learning</span><span>PyTorch</span><span>Scikit-Learn</span><span>NLP</span><span>LLMs</span><span>RAG</span><span>Computer
+                                Vision</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web & Tools</h3>
+                        <div class="skill-tags">
+                            <span>HTML/CSS</span><span>Django</span><span>Angular</span><span>Streamlit</span><span>Docker</span><span>Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="snap-section">
+            <div class="content-wrapper center-text">
+                <p class="accent-text">07. What's Next?</p>
+
+                <h2 class="big-title">Get In Touch</h2>
+                <p class="contact-desc">
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                    I'll try my best to get back to you!
+                </p>
+                <a href="mailto:m.mirzavil@gmail.com" class="btn primary-btn big-btn">Say Hello</a>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/mirza-villan" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Mirzavil" target="_blank">GitHub</a>
+                </div>
+                <p class="contact-desc">m.mirzavil@gmail.com</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
