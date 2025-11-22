@@ -107,8 +107,6 @@ body {
     font-weight: 700;
     font-size: clamp(1rem, 2.5vw, 1.2rem);
     z-index: 102;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 /* Hamburger Menu */
@@ -356,14 +354,10 @@ h1 {
 }
 
 .project-card {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: #112240;
     padding: 2rem;
-    border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s var(--easing), box-shadow 0.3s var(--easing), border-color 0.3s var(--easing);
+    border-radius: 0.25rem;
+    transition: transform 0.3s var(--easing);
     cursor: default;
     min-width: clamp(17.5rem, 40vw, 20rem);
     max-width: clamp(17.5rem, 40vw, 20rem);
@@ -373,8 +367,6 @@ h1 {
 
 .project-card:hover {
     transform: translateY(-0.3125rem);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-    border-color: rgba(0, 255, 65, 0.3);
 }
 
 .card-header {
